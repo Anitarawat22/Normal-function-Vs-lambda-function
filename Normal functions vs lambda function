@@ -1,0 +1,22 @@
+Normal Function In PYTHON
+
+def my_sum(x,y):
+    return x+y
+total = my_sum(5,9)
+print(total)
+
+
+my_list = [5,7,8,2,5,9]
+def doubler(x):
+    return 2*x
+output = list(map(doubler,my_list))
+
+
+LAMBDA FUNCTION:In PYTHON -----> A lambda function is an anonymous function that can take any number of arguments but,
+unlike normal functions, evaluates and returns only one expression.
+
+from functools import reduce
+reduce(lambda x,y : x+y,my_list)
+
+MAP AND REDUCE ARE THE HIGHER ORDEF FUNCTION  .Higher order function is the one which takes as input another function or which gives as output another function. 
+
